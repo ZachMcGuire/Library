@@ -1,0 +1,46 @@
+body {
+    font-size: xx-large;
+}
+
+.pageTitle {
+    display: flex;
+    justify-content: center;
+    margin: 2rem;
+
+}
+
+#hidden {
+    display: none;
+}
+
+.formContainer {
+    display: flex;
+    justify-content: center;
+
+}
+
+.addBookForm {
+    border: 1px solid black;
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 20rem;
+    padding: 1.5rem;
+}
+
+.formTitle, .titleInput, .authorInput, .pagesInput, .readInput, .submitInput {
+    margin: 1rem;
+}
+
+.bookView {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.book {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    padding: 1rem;
+}
