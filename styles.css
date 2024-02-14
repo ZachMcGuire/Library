@@ -1,12 +1,30 @@
 body {
     font-size: xx-large;
+    font-family: Caveat;
+    background-color: azure;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 .pageTitle {
     display: flex;
     justify-content: center;
     margin: 2rem;
+    font-family: 'Permanent Marker';
+    font-size: 6rem;
 
+}
+
+.buttonContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+.buttonText {
+    margin-left: 3rem;
 }
 
 #hidden {
@@ -16,7 +34,12 @@ body {
 .formContainer {
     display: flex;
     justify-content: center;
+    margin: 2rem;
 
+}
+
+.closeFormContainer {
+    display: flex;
 }
 
 .addBookForm {
@@ -27,6 +50,17 @@ body {
     flex-direction: column;
     width: 20rem;
     padding: 1.5rem;
+    background-color: antiquewhite;
+    box-shadow: 1rem 1rem 1rem black;
+}
+
+.formTextContainer {
+    display: flex;
+}
+
+.formText {
+    display: flex;
+    justify-content: center;
 }
 
 .formTitle, .titleInput, .authorInput, .pagesInput, .readInput, .submitInput {
@@ -35,6 +69,7 @@ body {
 
 .bookView {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
 }
 
@@ -42,5 +77,30 @@ body {
     display: flex;
     flex-direction: column;
     border: 1px solid black;
-    padding: 1rem;
+    border-radius: 1rem;
+    padding: 2rem;
+    margin: 4rem;
+    background-color: antiquewhite;
+    box-shadow: 1rem 1rem 1rem black;
+}
+
+.bookInfo {
+    font-style: italic;
+    font-weight: bold;
+
+    font-size: 3rem;
+}
+
+.readBtn, .removeBtn, .submitInput {
+    border-radius: 1rem;
+    font-size: 2rem;
+    font-family: Caveat;
+    margin: .5rem;
+}
+
+footer {
+    margin-top: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
